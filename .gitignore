@@ -1,0 +1,17 @@
+node_modules/
+dist/
+backend/.venv/
+backend/.env
+backend/data/
+backend/evaluation/results/
+backend/**/__pycache__/
+backend/.pytest_cache/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
